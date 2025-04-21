@@ -50,17 +50,17 @@ pause
 
 :: Download Video yt-video.bat
 
-:: -f bestvideo+bestaudio        				Resolusi dan kualitas terbaik (default)
-:: -f bestvideo[ext=mp4]+bestaudio[ext=m4a]   	Video MP4 dan audio M4A
-:: -f best[ext=mp4]              				Video MP4 kualitas terbaik gabungan
-:: -f 18                         				Format code YouTube (360p MP4)
-:: -f 22                         				Format code YouTube (720p MP4)
-:: -f 37                         				Format code YouTube (720p MP4)
-:: -f "bestvideo[height=1080]+bestaudio"   		1080p
-:: -f "bestvideo[height=720]+bestaudio"    		720p
-:: -f "bestvideo[height=480]+bestaudio"    		480p
-:: -f "bestvideo[height=360]+bestaudio"    		360p
-:: --merge-output-format mp4					Menggabungkan video+audio ke MP4/MKV tambahkan sebelum -o "%OUTPUT%"
+:: -f bestvideo+bestaudio                       Resolusi dan kualitas terbaik (default)
+:: -f bestvideo[ext=mp4]+bestaudio[ext=m4a]     Video MP4 dan audio M4A
+:: -f best[ext=mp4]                             Video MP4 kualitas terbaik gabungan
+:: -f 18                                        Format code YouTube (360p MP4)
+:: -f 22                                        Format code YouTube (720p MP4)
+:: -f 37                                        Format code YouTube (720p MP4)
+:: -f "bestvideo[height=1080]+bestaudio"        1080p
+:: -f "bestvideo[height=720]+bestaudio"         720p
+:: -f "bestvideo[height=480]+bestaudio"         480p
+:: -f "bestvideo[height=360]+bestaudio"         360p
+:: --merge-output-format mp4                    Menggabungkan video+audio ke MP4/MKV tambahkan sebelum -o "%OUTPUT%"
 
 @echo off
 setlocal
