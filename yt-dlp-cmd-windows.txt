@@ -32,7 +32,7 @@ set FFMPEG=C:\Users\Administrator\Downloads\A\ffmpeg\bin
 set COOKIES=C:\Users\Administrator\Downloads\yt\yt-cookie.txt
 
 :: Output folder
-set OUTPUT=C:/Users/Administrator/Downloads/yt/%(title)s.%(ext)s
+set OUTPUT=C:/Users/Administrator/Downloads/yt/%%(title)s.%%(ext)s
 
 :: URL video
 set URL=https://www.youtube.com/watch?v=3zf6Vyi7fS0
@@ -55,7 +55,7 @@ pause
 :: -f best[ext=mp4]                             Video MP4 kualitas terbaik gabungan
 :: -f 18                                        Format code YouTube (360p MP4)
 :: -f 22                                        Format code YouTube (720p MP4)
-:: -f 37                                        Format code YouTube (720p MP4)
+:: -f 37                                        Format code YouTube (1080p MP4)
 :: -f "bestvideo[height=1080]+bestaudio"        1080p
 :: -f "bestvideo[height=720]+bestaudio"         720p
 :: -f "bestvideo[height=480]+bestaudio"         480p
@@ -78,7 +78,7 @@ set FFMPEG=C:\Users\Administrator\Downloads\A\ffmpeg\bin
 set COOKIES=C:\Users\Administrator\Downloads\yt\yt-cookie.txt
 
 :: Output folder
-set OUTPUT=C:/Users/Administrator/Downloads/yt/%(title)s.%(ext)s
+set OUTPUT=C:/Users/Administrator/Downloads/yt/%%(title)s.%%(ext)s
 
 :: URL video
 set URL=https://www.youtube.com/watch?v=3zf6Vyi7fS0
